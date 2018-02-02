@@ -75,7 +75,7 @@ html {
 	opacity: 0;
 }
 .section.section-lowdown {
-	transition: all ease-in-out 0.5s;
+	transition: all ease-in-out 1s;
 	position: absolute;
 	width: 100%;
 	height: auto;
