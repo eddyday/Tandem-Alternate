@@ -82,6 +82,7 @@ html {
 	top:2vh;
 	bottom: 2vh;
 	background-color: #fff;
+	overflow-y: scroll;
 }
 .section.section-intro .inner-welcome-container {
 	/*! padding: 1rem 2rem 2rem; */
