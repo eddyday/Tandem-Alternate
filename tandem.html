@@ -17,27 +17,23 @@
 <body data-ng-app="bullets">
 <div class="section section-intro">
   <div class="container">
-    
-      <div class="inner-welcome-container">
-       <img class="logo-image" src="images/logos-tandem-black-blue@2x.png" alt="Tandem">
-        <h1 class="intro-title">A cashback credit card for holiday and home</h1>
-        <div class="card-checklist">
-      <div class="row flex-row">
-        <div class="col-sm-6 col-md-6 col-lg-7 ">
-          <ol class="benefits-list" data-ng-controller="cc-checklist">
-            <li data-ng-repeat="x in bulletData"> {{ x.bullet }} </li>
-          </ol>
-          <div class="toggle-button-container"> <a data-ng-click="toggle=!toggle" class="btn btn-primary btn-md">{{toggle ? 'Opening lowdown...' : 'Get the lowdown'}}</a></div>
+    <div class="inner-welcome-container"> <img class="logo-image" src="images/logos-tandem-black-blue@2x.png" alt="Tandem">
+      <h1 class="intro-title">A cashback credit card for holiday and home</h1>
+      <div class="card-checklist">
+        <div class="row flex-row">
+          <div class="col-sm-6 col-md-6 col-lg-7 ">
+            <ol class="benefits-list" data-ng-controller="cc-checklist">
+              <li data-ng-repeat="x in bulletData"> {{ x.bullet }} </li>
+            </ol>
+            <div class="toggle-button-container"> <a data-ng-click="toggle=!toggle" class="btn btn-primary btn-md">{{toggle ? 'Opening lowdown...' : 'Get the lowdown'}}</a></div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-5"> <img class="img-responsive" src="images/LP-CC-Travel@3x.png" alt="card"/> </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-5"> <img class="img-responsive" src="images/LP-CC-Travel@3x.png" alt="card"/> </div>
-      </div>
-        
       </div>
     </div>
   </div>
 </div>
-<div class="section section-lowdown" data-ng-show="toggle">
- <a data-ng-click="toggle=!toggle" class="btn btn-primary btn-md btn-close">{{toggle ? 'x' : 'x'}}</a>
+<div class="section section-lowdown" data-ng-show="toggle"> <a data-ng-click="toggle=!toggle" class="btn btn-primary btn-md btn-close">{{toggle ? 'x' : 'x'}}</a>
   <div class="container">
     <div class="col-md-12">
       <h2 class="section-title"> The lowdown </h2>

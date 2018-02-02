@@ -79,7 +79,7 @@ html {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	top:2vh;
+	top: 2vh;
 	bottom: 2vh;
 	background-color: #fff;
 	overflow-y: scroll;
@@ -101,7 +101,7 @@ html {
 	margin-top: 1.2rem;
 	clear: both;
 	text-transform: uppercase;
-	background-color: rgb(24, 31, 34); 
+	background-color: rgb(24, 31, 34);
 	z-index: 10001;
 }
 .toggle-button-container {
@@ -113,7 +113,7 @@ html {
 .section.section-lowdown .btn-close {
 	position: absolute;
 	right: 10px;
-	top:10px;
+	top: 10px;
 }
 .section.section-intro .inner-welcome-container h1.intro-title {
 	font-weight: 800;
@@ -125,7 +125,6 @@ html {
 	color: rgb(21,31,34);
 	font-size: 2rem;
 }
-
 .section h2.section-title, .h2 {
 	font-size: 3.2rem;
 	margin-bottom: 3rem;
@@ -219,7 +218,6 @@ html {
 	padding-left: 1.375rem
 }
 }
-
 .lowdown-table-title-content {
 	font-family: inherit;
 	font-weight: 700;
@@ -273,12 +271,12 @@ ol {
 	flex-flow: row nowrap;
 }
 }
+
 @media screen and (max-width:767px) {
 .row.flex-row {
 	margin: 0 -15px;
 }
-	.img-responsive {
-		padding: 30px 50px 0;
-	}
+.img-responsive {
+	padding: 30px 50px 0;
 }
-
+}
