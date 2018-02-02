@@ -127,9 +127,9 @@ html {
 }
 
 .section h2.section-title, .h2 {
-	font-size: 3rem;
+	font-size: 3.2rem;
 	margin-bottom: 3rem;
-	font-weight: 300;
+	font-weight: 400;
 	display: inline-block;
 	color: rgb(28,223,254);
 }
