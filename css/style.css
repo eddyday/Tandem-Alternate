@@ -26,21 +26,6 @@ html {
 	font-size: 15px;
 }
 }
-.navbar-default {
-	background-color: #fff;
-	border-color: transparent;
-	border: none;
-	margin-bottom: 0;
-}
-.navbar-brand {
-	padding: 0px;
-	height: 60px
-}
-.navbar-brand>img {
-	height: 100%;
-	padding: 10px;
-	width: auto;
-}
 .section {
 	padding: 2rem 0 4rem;
 }
@@ -63,6 +48,7 @@ html {
 }
 .section.section-intro img.logo-image {
 	max-width: 15rem;
+	display: block;
 }
 .section.section-benefits {
 	padding: 3rem 0 7rem;
@@ -118,12 +104,14 @@ html {
 .section.section-intro .inner-welcome-container h1.intro-title {
 	font-weight: 800;
 	line-height: 1.3;
-	display: block;
-	padding: 0.6rem 0 0.3rem;
+	display: inline-block;
+	padding: 0.5rem 0.8rem 0.6rem;
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
-	color: rgb(21,31,34);
+	color: rgb(255, 255, 255);
 	font-size: 2rem;
+	background-color: rgb(28, 223, 254);
+	clear: both;
 }
 .section h2.section-title, .h2 {
 	font-size: 3.2rem;
@@ -212,7 +200,7 @@ html {
 	font-size: 1.2rem;
 }
 
-@media print, screen and (min-width:40rem) {
+@media screen and (min-width:40rem) {
 .lowdown-table-description-content {
 	padding-top: 1rem;
 	padding-left: 1.375rem
