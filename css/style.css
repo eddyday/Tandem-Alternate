@@ -128,9 +128,6 @@ html {
 	flex-wrap: wrap;
 	clear: both;
 }
-.lowdown-table_section > :nth-of-type(2n) > * .lowdown-table-description-content, .lowdown-table_section > :nth-of-type(2n) > * .lowdown-table-title-content {
-	background-color: #f3f6f7
-}
 .lowdown-table-row {
 	width: 100%
 }
@@ -223,7 +220,7 @@ ol {
 	padding: .4em .4em .4em 3em;
  *padding: .4em;
 	margin: .5em 0;
-	color: #333;
+	color: rgb(23,31,34);
 	text-decoration: none;
 	transition: all .3s ease-out;
 	font-size: 1.2rem;
