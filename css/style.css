@@ -7,11 +7,27 @@ body {
 html {
 	font-size: 12px;
 }
+.section.section-intro .container {
+	padding: 8vh 4vh;
+}
+.section.section-lowdown {
+	height: 120vh;
+}
 }
 
 @media (min-width: 768px) {
 html {
 	font-size: 13px;
+}
+.section.section-intro .container {
+	padding: 4vh;
+}
+.section.section-intro {
+	background-image: url(../images/phone-card-top-down@colored.jpg);
+	background-size: cover;
+}
+.section.section-lowdown {
+	height: auto;
 }
 }
 
@@ -30,21 +46,14 @@ html {
 	padding: 2rem 0 4rem;
 }
 .section.section-intro {
-	background-image: url(../images/phone-card-top-down@colored.jpg);
-	background-size: cover;
 	padding-bottom: 0;
 	display: flex;
 	align-items: center;
 	min-height: 100vh;
-	padding: 10vh 0;
+	padding: 0;
 }
-.section.section-intro .container::after {
-	content: "";
-	display: block;
-	width: 25rem;
-	height: 2px;
-	background-color: rgb(28,223,254);
-	margin: 5vh auto 0;
+.section.section-intro .container {
+	background-color: rgba(255,255,255,1);
 }
 .section.section-intro img.logo-image {
 	max-width: 15rem;
@@ -64,9 +73,8 @@ html {
 	transition: all ease-in-out 1s;
 	position: absolute;
 	width: 100%;
-	height: auto;
-	top: 2vh;
-	bottom: 2vh;
+	top: 0;
+	bottom: 0;
 	background-color: #fff;
 	overflow-y: scroll;
 }
@@ -108,7 +116,7 @@ html {
 	padding: 0.5rem 0.8rem 0.6rem;
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
-	color: rgb(255, 255, 255);
+	color: rgb(23, 31, 34);
 	font-size: 2rem;
 	background-color: rgb(28, 223, 254);
 	clear: both;
